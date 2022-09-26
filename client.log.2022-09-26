@@ -1,45 +1,45 @@
 {
   message: "Use the JDK from 'JAVA_HOME' as the initial default project JDK.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:22.092'
+  timestamp: '2022-09-26 13:09:56.928'
 }
 {
-  message: 'Starting Java server with: /home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/jre/17.0.4-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:jni+resolve=off -javaagent:/home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/lombok/lombok-1.18.24.jar -jar /home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/olga/.config/Code/User/globalStorage/redhat.java/1.10.0/config_ss_linux -data /home/olga/.config/Code/User/workspaceStorage/a173b3b78960646b4119193930553375/redhat.java/ss_ws',
+  message: 'Starting Java server with: /home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/jre/17.0.4-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:jni+resolve=off -javaagent:/home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/lombok/lombok-1.18.24.jar -jar /home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/olga/.config/Code/User/globalStorage/redhat.java/1.10.0/config_ss_linux -data /home/olga/.config/Code/User/workspaceStorage/0bb110fb2cd8f07da19ea5a20991b980/redhat.java/ss_ws',
   level: 'info',
-  timestamp: '2022-09-26 09:46:22.192'
+  timestamp: '2022-09-26 13:09:57.675'
 }
 {
-  message: "[Trace - 9:46:22 AM] Sending request 'initialize - (0)'.",
+  message: "[Trace - 1:09:57 PM] Sending request 'initialize - (0)'.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:22.209'
+  timestamp: '2022-09-26 13:09:57.732'
 }
 {
   message: 'Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8\n',
   level: 'info',
-  timestamp: '2022-09-26 09:46:22.212'
+  timestamp: '2022-09-26 13:09:57.876'
 }
 {
-  message: "[Trace - 9:46:26 AM] Received response 'initialize - (0)' in 4455ms.",
+  message: "[Trace - 1:10:05 PM] Received response 'initialize - (0)' in 7476ms.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.661'
+  timestamp: '2022-09-26 13:10:05.196'
 }
 {
-  message: "[Trace - 9:46:26 AM] Sending notification 'initialized'.",
+  message: "[Trace - 1:10:05 PM] Sending notification 'initialized'.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.661'
+  timestamp: '2022-09-26 13:10:05.197'
 }
 {
-  message: "[Trace - 9:46:26 AM] Sending notification 'workspace/didChangeConfiguration'.",
+  message: "[Trace - 1:10:05 PM] Sending notification 'workspace/didChangeConfiguration'.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.663'
+  timestamp: '2022-09-26 13:10:05.202'
 }
 {
-  message: "[Trace - 9:46:26 AM] Received notification 'window/logMessage'.",
+  message: "[Trace - 1:10:05 PM] Received notification 'window/logMessage'.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.777'
+  timestamp: '2022-09-26 13:10:05.614'
 }
 {
-  message: '[Error - 9:46:26 AM] Sep 26, 2022, 9:46:26 AM Initialization failed \n' +
+  message: '[Error - 1:10:05 PM] Sep 26, 2022, 1:10:05 PM Initialization failed \n' +
     'Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null\n' +
     'java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null\n' +
     '\tat org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)\n' +
@@ -62,80 +62,306 @@
     '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)\n' +
     '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.778'
+  timestamp: '2022-09-26 13:10:05.615'
 }
 {
-  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (1)'.",
+  message: "[Trace - 1:10:05 PM] Received request 'client/registerCapability - (1)'.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.894'
+  timestamp: '2022-09-26 13:10:05.821'
 }
 {
-  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (1)'. Processing request took 1ms",
+  message: "[Trace - 1:10:05 PM] Sending response 'client/registerCapability - (1)'. Processing request took 1ms",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.896'
+  timestamp: '2022-09-26 13:10:05.823'
 }
 {
-  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (2)'.",
+  message: "[Trace - 1:10:05 PM] Received request 'client/registerCapability - (2)'.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.898'
+  timestamp: '2022-09-26 13:10:05.825'
 }
 {
-  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (2)'. Processing request took 0ms",
+  message: "[Trace - 1:10:05 PM] Sending response 'client/registerCapability - (2)'. Processing request took 0ms",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.901'
+  timestamp: '2022-09-26 13:10:05.825'
 }
 {
-  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (3)'.",
+  message: "[Trace - 1:10:05 PM] Received request 'client/registerCapability - (3)'.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.908'
+  timestamp: '2022-09-26 13:10:05.827'
 }
 {
-  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (3)'. Processing request took 0ms",
+  message: "[Trace - 1:10:05 PM] Sending response 'client/registerCapability - (3)'. Processing request took 1ms",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.910'
+  timestamp: '2022-09-26 13:10:05.829'
 }
 {
-  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (4)'.",
+  message: "[Trace - 1:10:05 PM] Received request 'client/registerCapability - (4)'.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.912'
+  timestamp: '2022-09-26 13:10:05.832'
 }
 {
-  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (4)'. Processing request took 0ms",
+  message: "[Trace - 1:10:05 PM] Sending response 'client/registerCapability - (4)'. Processing request took 0ms",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.913'
+  timestamp: '2022-09-26 13:10:05.833'
 }
 {
-  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (5)'.",
+  message: "[Trace - 1:10:05 PM] Received request 'client/registerCapability - (5)'.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.915'
+  timestamp: '2022-09-26 13:10:05.843'
 }
 {
-  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (5)'. Processing request took 0ms",
+  message: "[Trace - 1:10:05 PM] Sending response 'client/registerCapability - (5)'. Processing request took 0ms",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.916'
+  timestamp: '2022-09-26 13:10:05.844'
 }
 {
-  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (6)'.",
+  message: "[Trace - 1:10:05 PM] Received request 'client/registerCapability - (6)'.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.916'
+  timestamp: '2022-09-26 13:10:05.845'
 }
 {
-  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (6)'. Processing request took 0ms",
+  message: "[Trace - 1:10:05 PM] Sending response 'client/registerCapability - (6)'. Processing request took 0ms",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.917'
+  timestamp: '2022-09-26 13:10:05.845'
 }
 {
-  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (7)'.",
+  message: "[Trace - 1:10:05 PM] Received request 'client/registerCapability - (7)'.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.918'
+  timestamp: '2022-09-26 13:10:05.852'
 }
 {
-  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (7)'. Processing request took 0ms",
+  message: "[Trace - 1:10:05 PM] Sending response 'client/registerCapability - (7)'. Processing request took 0ms",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.918'
+  timestamp: '2022-09-26 13:10:05.852'
 }
 {
-  message: "[Trace - 9:46:26 AM] Received notification 'language/status'.",
+  message: "[Trace - 1:10:05 PM] Received notification 'language/status'.",
   level: 'info',
-  timestamp: '2022-09-26 09:46:26.920'
+  timestamp: '2022-09-26 13:10:05.853'
+}
+{
+  message: "[Trace - 1:10:39 PM] Sending notification 'textDocument/didOpen'.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:39.016'
+}
+{
+  message: "[Trace - 1:10:39 PM] Sending request 'textDocument/semanticTokens/full - (1)'.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:39.027'
+}
+{
+  message: "[Trace - 1:10:39 PM] Sending request 'textDocument/documentSymbol - (2)'.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:39.028'
+}
+{
+  message: "[Trace - 1:10:39 PM] Received request 'client/unregisterCapability - (8)'.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:39.999'
+}
+{
+  message: "[Trace - 1:10:40 PM] Sending response 'client/unregisterCapability - (8)'. Processing request took 0ms",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:40.008'
+}
+{
+  message: "[Trace - 1:10:40 PM] Received request 'client/registerCapability - (9)'.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:40.012'
+}
+{
+  message: "[Trace - 1:10:40 PM] Sending response 'client/registerCapability - (9)'. Processing request took 0ms",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:40.013'
+}
+{
+  message: "[Trace - 1:10:40 PM] Sending request 'textDocument/foldingRange - (3)'.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:40.513'
+}
+{
+  message: "[Trace - 1:10:41 PM] Received notification 'window/logMessage'.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:41.266'
+}
+{
+  message: '[Error - 1:10:41 PM] Sep 26, 2022, 1:10:41 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null\n' +
+    'java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null\n' +
+    '\tat org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:983)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:782)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1103)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1048)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1025)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:538)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3917)\n' +
+    '\tat org.eclipse.jdt.internal.core.BasicCompilationUnit.initAttributes(BasicCompilationUnit.java:86)\n' +
+    '\tat org.eclipse.jdt.internal.core.BasicCompilationUnit.<init>(BasicCompilationUnit.java:67)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1176)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.SemanticTokensHandler.full(SemanticTokensHandler.java:46)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$11(SyntaxLanguageServer.java:417)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)\n',
+  level: 'info',
+  timestamp: '2022-09-26 13:10:41.286'
+}
+{
+  message: "[Trace - 1:10:41 PM] Received notification 'window/logMessage'.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:41.306'
+}
+{
+  message: '[Error - 1:10:41 PM] Sep 26, 2022, 1:10:41 PM Error in JDT Core during AST creation\n' +
+    'Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null\n' +
+    'java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null\n' +
+    '\tat org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:983)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:782)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1103)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1048)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1025)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:538)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3917)\n' +
+    '\tat org.eclipse.jdt.internal.core.BasicCompilationUnit.initAttributes(BasicCompilationUnit.java:86)\n' +
+    '\tat org.eclipse.jdt.internal.core.BasicCompilationUnit.<init>(BasicCompilationUnit.java:67)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1176)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.SemanticTokensHandler.full(SemanticTokensHandler.java:46)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$11(SyntaxLanguageServer.java:417)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)\n',
+  level: 'info',
+  timestamp: '2022-09-26 13:10:41.307'
+}
+{
+  message: "[Trace - 1:10:41 PM] Received response 'textDocument/semanticTokens/full - (1)' in 2289ms.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:41.316'
+}
+{
+  message: "[Trace - 1:10:41 PM] Received response 'textDocument/foldingRange - (3)' in 805ms.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:41.318'
+}
+{
+  message: "[Trace - 1:10:41 PM] Received response 'textDocument/documentSymbol - (2)' in 2310ms.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:41.339'
+}
+{
+  message: "[Trace - 1:10:41 PM] Received notification 'window/logMessage'.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:41.709'
+}
+{
+  message: '[Error - 1:10:41 PM] Sep 26, 2022, 1:10:41 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null\n' +
+    'java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null\n' +
+    '\tat org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:983)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:782)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1103)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1048)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1025)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:538)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3917)\n' +
+    '\tat org.eclipse.jdt.internal.core.BasicCompilationUnit.initAttributes(BasicCompilationUnit.java:86)\n' +
+    '\tat org.eclipse.jdt.internal.core.BasicCompilationUnit.<init>(BasicCompilationUnit.java:67)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1176)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:250)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:125)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2022-09-26 13:10:41.709'
+}
+{
+  message: "[Trace - 1:10:41 PM] Received notification 'window/logMessage'.",
+  level: 'info',
+  timestamp: '2022-09-26 13:10:41.717'
+}
+{
+  message: '[Error - 1:10:41 PM] Sep 26, 2022, 1:10:41 PM Error in JDT Core during AST creation\n' +
+    'Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null\n' +
+    'java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null\n' +
+    '\tat org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:983)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:782)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1103)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1048)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1025)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:538)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3917)\n' +
+    '\tat org.eclipse.jdt.internal.core.BasicCompilationUnit.initAttributes(BasicCompilationUnit.java:86)\n' +
+    '\tat org.eclipse.jdt.internal.core.BasicCompilationUnit.<init>(BasicCompilationUnit.java:67)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1176)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:250)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:125)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2022-09-26 13:10:41.717'
+}
+{
+  message: 'Starting Java server with: /home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/jre/17.0.4-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:jni+resolve=off -javaagent:/home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/lombok/lombok-1.18.24.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/olga/.config/Code/User/workspaceStorage/0bb110fb2cd8f07da19ea5a20991b980/redhat.java -jar /home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/olga/.config/Code/User/globalStorage/redhat.java/1.10.0/config_linux -data /home/olga/.config/Code/User/workspaceStorage/0bb110fb2cd8f07da19ea5a20991b980/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2022-09-26 13:11:26.679'
+}
+{
+  message: "[Trace - 1:11:44 PM] Sending request 'shutdown - (4)'.",
+  level: 'info',
+  timestamp: '2022-09-26 13:11:44.829'
+}
+{
+  message: '[Error - 1:11:45 PM] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2022-09-26 13:11:45.831'
 }

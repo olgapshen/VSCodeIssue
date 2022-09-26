@@ -1,0 +1,554 @@
+!SESSION 2022-09-26 13:11:28.391 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/olga/.config/Code/User/workspaceStorage/0bb110fb2cd8f07da19ea5a20991b980/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:36.952
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:37.892
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:38.054
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:38.077
+!MESSAGE Initializing Java Language Server 1.15.0.202208311536
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:38.605
+!MESSAGE Setting java.home /usr/lib64/jvm/java-11-openjdk-11 as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:42.884
+!MESSAGE Default VM Install changed from  1664187098256-/home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/jre/17.0.4-linux-x86_64 to 1664187098605-/usr/lib64/jvm/java-11-openjdk-11
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:42.913
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:42.935
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.27/dist/com.microsoft.jdtls.intellicode.core-0.5.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:42.960
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-debug-0.44.0/server/com.microsoft.java.debug.plugin-0.40.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:42.966
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-dependency-0.21.0/server/com.microsoft.jdtls.ext.core-0.21.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:42.991
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-jupiter-api_5.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:42.996
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-jupiter-engine_5.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.000
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-jupiter-migrationsupport_5.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.008
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-jupiter-params_5.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.028
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-commons_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.040
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-engine_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.051
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-launcher_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.061
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-runner_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.075
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-suite-api_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.085
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-suite-commons_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.094
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-suite-engine_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.101
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-vintage-engine_5.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.113
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.120
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.128
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/org.eclipse.jdt.junit5.runtime_1.1.0.v20220715-1030.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.133
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/org.opentest4j_1.2.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.136
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/com.microsoft.java.test.plugin-0.37.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.146
+!MESSAGE Installed reference:file:/home/olga/.vscode/extensions/vscjava.vscode-maven-0.38.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.37.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.524
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-suite-engine_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.527
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-runner_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.536
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-jupiter-api_5.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.537
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-suite-commons_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.538
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-engine_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.539
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-jupiter-params_5.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.540
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-vintage-engine_5.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.541
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.542
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.544
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-suite-api_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.547
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-launcher_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.548
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-jupiter-migrationsupport_5.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.549
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-jupiter-engine_5.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.550
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/junit-platform-commons_1.9.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.550
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/org.eclipse.jdt.junit5.runtime_1.1.0.v20220715-1030.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.551
+!MESSAGE Started reference:file:/home/olga/.vscode/extensions/vscjava.vscode-java-test-0.37.1/server/org.opentest4j_1.2.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.565
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.565
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.570
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.573
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.574
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.575
+!MESSAGE Non-Static Commands: [vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.576
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.576
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.578
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.579
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.579
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.580
+!MESSAGE Non-Static Commands: [java.intellicode.completion, java.intellicode.completion.resolve, java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.609
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.613
+!MESSAGE Wait for AutoBuildOffJob end 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.614
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.615
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.615
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.616
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.734
+!MESSAGE Started org.eclipse.buildship.core 118ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.782
+!MESSAGE LoadingGradleVersionJob finished 48ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.813
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:43.819
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.145
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2022-09-26 13:11:44.181
+!MESSAGE Initialization failed 
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)
+	at org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:983)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:782)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1103)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1048)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1025)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:538)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:2384)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragments(JavaProject.java:2408)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.cleanupResources(ProjectsManager.java:278)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.359
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.364
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.429
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.466
+!MESSAGE >> New configuration: {java={home=/usr/lib64/jvm/java-11-openjdk-11, jdt={ls={java={home=null}, vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:jni+resolve=off -javaagent:"/home/olga/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar", lombokSupport={enabled=true}, protobufSupport={enabled=true}, androidSupport={enabled=false}}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=false, updateBuildConfiguration=interactive, maven={userSettings=null, globalSettings=null, notCoveredPluginExecutionSeverity=warning}, workspaceCacheLimit=90.0, runtimes=[]}, trace={server=messages}, import={maven={enabled=true, offline={enabled=false}}, gradle={enabled=true, wrapper={enabled=true}, version=null, home=null, java={home=null}, offline={enabled=false}, arguments=null, jvmArguments=null, user={home=null}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false}, maven={downloadSources=false, updateSnapshots=false}, eclipse={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false, description={enabled=false}}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}, insertSpaces=true, tabSize=4.0}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], importOnFirstTimeStartup=automatic, importHint=true, resourceFilters=[node_modules, .git], encoding=ignore, exportJar={targetPath=${workspaceFolder}/${workspaceFolderBasename}.jar}}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, recommendations={dependency={analytics={show=true}}}, completion={maxResults=0.0, enabled=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], importOrder=[java, javax, org, com]}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}, insertionLocation=afterCursor}, selectionRange={enabled=true}, showBuildStatusOnStart={enabled=notification}, server={launchMode=LightWeight}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, imports={gradle={wrapper={checksums=[]}}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true, includeDecompiledSources=true}, typeHierarchy={lazyLoad=false}, settings={url=null}, symbols={includeSourceMethodDeclarations=false}, quickfix={showAt=line}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, codeAction={sortMembers={avoidVolatileChanges=true}}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=false, showQualifiedNames=false, showLogicalStructure=true, showToString=true, maxStringLength=0.0, numericPrecision=0.0, hotCodeReplace=manual, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true, onBuildFailureProceed=false, console=integratedTerminal, exceptionBreakpoint={skipClasses=[]}, stepping={skipClasses=[], skipSynthetics=false, skipStaticInitializers=false, skipConstructors=false}, jdwp={limitOfVariablesPerJdwpRequest=100.0, requestTimeout=3000.0, async=auto}, vmArgs=}}, silentNotification=false, dependency={showMembers=false, syncWithFolderExplorer=true, autoRefresh=true, refreshDelay=2000.0, packagePresentation=flat}, help={firstView=auto, showReleaseNotes=true, collectErrorLog=false}, test={defaultConfig=, config={}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.471
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.568
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.core.resources 4 2 2022-09-26 13:11:44.581
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)
+	at org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:983)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:782)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1103)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1048)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1025)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:538)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3917)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:129)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:63)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:644)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:182)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2022-09-26 13:11:44.586
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2022-09-26 13:11:44.586
+!MESSAGE Errors running builder 'Java Builder' on project 'jdt.ls-java-project'.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)
+	at org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:983)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:782)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1103)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1048)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1025)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:538)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3917)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:129)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:63)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:644)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:182)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.594
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.599
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.601
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.605
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-09-26 13:11:44.826
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJrtToIndex.execute(AddJrtToIndex.java:267)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:478)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.834
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:44.835
+!MESSAGE >> workspace/executeCommand vscode.java.test.get.testpath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:45.174
+!MESSAGE >> workspace/executeCommand vscode.java.test.get.testpath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:45.175
+!MESSAGE >> workspace/executeCommand java.intellicode.enable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:45.176
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:45.195
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:45.417
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:45.831
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:46.837
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:49.601
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY java-debug 1 0 2022-09-26 13:11:49.618
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2022-09-26 13:11:49.629
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)
+	at org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:983)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:782)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1103)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1048)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1025)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:538)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3917)
+	at org.eclipse.jdt.internal.core.BasicCompilationUnit.initAttributes(BasicCompilationUnit.java:86)
+	at org.eclipse.jdt.internal.core.BasicCompilationUnit.<init>(BasicCompilationUnit.java:67)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1224)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getPackageName(JDTUtils.java:335)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getPackageName(JDTUtils.java:317)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:264)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:188)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:168)
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.resolveMainMethods(ResolveMainMethodHandler.java:67)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:76)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:529)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2022-09-26 13:11:49.630
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)
+	at org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:983)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:782)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1103)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1048)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1025)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:538)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3917)
+	at org.eclipse.jdt.internal.core.BasicCompilationUnit.initAttributes(BasicCompilationUnit.java:86)
+	at org.eclipse.jdt.internal.core.BasicCompilationUnit.<init>(BasicCompilationUnit.java:67)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1224)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getPackageName(JDTUtils.java:335)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getPackageName(JDTUtils.java:317)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:264)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:188)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:168)
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.resolveMainMethods(ResolveMainMethodHandler.java:67)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:76)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:529)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:53.709
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:56.788
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:57.276
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2022-09-26 13:11:57.282
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)
+	at org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:983)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:782)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1103)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1048)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1025)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:538)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3917)
+	at org.eclipse.jdt.internal.core.BasicCompilationUnit.initAttributes(BasicCompilationUnit.java:86)
+	at org.eclipse.jdt.internal.core.BasicCompilationUnit.<init>(BasicCompilationUnit.java:67)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1224)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getPackageName(JDTUtils.java:335)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getPackageName(JDTUtils.java:317)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:264)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:188)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:168)
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.resolveMainMethods(ResolveMainMethodHandler.java:67)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:76)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:529)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2022-09-26 13:11:57.283
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)
+	at org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:983)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:782)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1103)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1048)
+	at org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1025)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:538)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaProject.getModuleDescription(JavaProject.java:3917)
+	at org.eclipse.jdt.internal.core.BasicCompilationUnit.initAttributes(BasicCompilationUnit.java:86)
+	at org.eclipse.jdt.internal.core.BasicCompilationUnit.<init>(BasicCompilationUnit.java:67)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1224)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getPackageName(JDTUtils.java:335)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getPackageName(JDTUtils.java:317)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:264)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:188)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:168)
+	at com.microsoft.java.debug.plugin.internal.ResolveMainMethodHandler.resolveMainMethods(ResolveMainMethodHandler.java:67)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:76)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:529)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:11:57.295
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:12:01.010
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:12:09.293
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-09-26 13:12:50.311
+!MESSAGE >> document/didClose

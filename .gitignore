@@ -5,10 +5,9 @@
 /.vscode/
 
 /target/
-/build/
+/plugin/build/
 /bin/
 
-*.log
 *.loc.bat
 *.loc.sh
 
