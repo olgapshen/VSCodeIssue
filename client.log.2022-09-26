@@ -1,0 +1,141 @@
+{
+  message: "Use the JDK from 'JAVA_HOME' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:22.092'
+}
+{
+  message: 'Starting Java server with: /home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/jre/17.0.4-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:jni+resolve=off -javaagent:/home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/lombok/lombok-1.18.24.jar -jar /home/olga/.vscode/extensions/redhat.java-1.10.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/olga/.config/Code/User/globalStorage/redhat.java/1.10.0/config_ss_linux -data /home/olga/.config/Code/User/workspaceStorage/a173b3b78960646b4119193930553375/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2022-09-26 09:46:22.192'
+}
+{
+  message: "[Trace - 9:46:22 AM] Sending request 'initialize - (0)'.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:22.209'
+}
+{
+  message: 'Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8\n',
+  level: 'info',
+  timestamp: '2022-09-26 09:46:22.212'
+}
+{
+  message: "[Trace - 9:46:26 AM] Received response 'initialize - (0)' in 4455ms.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.661'
+}
+{
+  message: "[Trace - 9:46:26 AM] Sending notification 'initialized'.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.661'
+}
+{
+  message: "[Trace - 9:46:26 AM] Sending notification 'workspace/didChangeConfiguration'.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.663'
+}
+{
+  message: "[Trace - 9:46:26 AM] Received notification 'window/logMessage'.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.777'
+}
+{
+  message: '[Error - 9:46:26 AM] Sep 26, 2022, 9:46:26 AM Initialization failed \n' +
+    'Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null\n' +
+    'java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null\n' +
+    '\tat org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:242)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.loadModulesInJimage(JavaProject.java:983)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:782)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1103)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1048)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.computePackageFragmentRoots(JavaProject.java:1025)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:538)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:2384)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getPackageFragments(JavaProject.java:2408)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.cleanupResources(ProjectsManager.java:278)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxInitHandler$1.runInWorkspace(SyntaxInitHandler.java:115)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.778'
+}
+{
+  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (1)'.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.894'
+}
+{
+  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (1)'. Processing request took 1ms",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.896'
+}
+{
+  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (2)'.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.898'
+}
+{
+  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (2)'. Processing request took 0ms",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.901'
+}
+{
+  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (3)'.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.908'
+}
+{
+  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (3)'. Processing request took 0ms",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.910'
+}
+{
+  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (4)'.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.912'
+}
+{
+  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (4)'. Processing request took 0ms",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.913'
+}
+{
+  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (5)'.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.915'
+}
+{
+  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (5)'. Processing request took 0ms",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.916'
+}
+{
+  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (6)'.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.916'
+}
+{
+  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (6)'. Processing request took 0ms",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.917'
+}
+{
+  message: "[Trace - 9:46:26 AM] Received request 'client/registerCapability - (7)'.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.918'
+}
+{
+  message: "[Trace - 9:46:26 AM] Sending response 'client/registerCapability - (7)'. Processing request took 0ms",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.918'
+}
+{
+  message: "[Trace - 9:46:26 AM] Received notification 'language/status'.",
+  level: 'info',
+  timestamp: '2022-09-26 09:46:26.920'
+}
