@@ -6,6 +6,7 @@
 
 /target/
 /plugin/build/
+/plugin/bin/
 /bin/
 
 *.loc.bat
